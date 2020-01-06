@@ -18,7 +18,7 @@ googleAnalytics = "UA-155272176-1"
         Margarita Limón y Lily Arándano se conocen desde pequeñitas. 
         Juntas viven un montón de aventuras!
     """
-    publicationYear = "2019"
+    publicationYear = "2020"
     # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
     # singlePageDateFormat = "January 2, 2006"
     custom_css = ["/css/custom.css"]
