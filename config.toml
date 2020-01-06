@@ -28,22 +28,29 @@ googleAnalytics = "UA-155272176-1"
     section = ["JSON", "HTML"]
 
 [[menu.main]]
-    identifier = "twitter"
-    # name = "Twitter"
-    pre = "<i class='fab fa-twitter fa-lg'></i>"
-    url = "https://twitter.com/margarita-limon"
+    identifier = "facebook"
+    # name = "Facebook"
+    pre = "<i class='fab fa-facebook fa-lg'></i>"
+    url = "https://www.facebook.com/MargaritaLim0n"
     weight = 20
 
 [[menu.main]]
     identifier = "instagram"
     # name = "Instagram"
     pre = "<i class='fab fa-instagram fa-lg'></i>"
-    url = "https://instagram.com/margarita-limon"
+    url = "https://instagram.com/MargaritaLim0n"
+    weight = 20
+
+[[menu.main]]
+    identifier = "twitter"
+    # name = "Twitter"
+    pre = "<i class='fab fa-twitter fa-lg'></i>"
+    url = "https://twitter.com/MargaritaLim0n"
     weight = 20
 
 [[menu.main]]
     identifier = "email"
     # name = "Email"
     pre = "<i class='fa fa-envelope fa-lg'></i>"
-    url = "mailto:info@margaritalimon.es"
+    url = "mailto:happymargaritalimon@gmail.com"
     weight = 40
