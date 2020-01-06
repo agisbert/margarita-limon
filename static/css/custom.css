@@ -1,0 +1,20 @@
+body {
+    background-color: #FFFEE6;
+}
+
+header .avatar img {
+    width: 80px;
+}
+
+header .avatarMask {
+    clip-path: circle(100% at center);
+    -webkit-clip-path: circle(100% at center);
+  }
+
+header .avatar img[alt="avatar-border"] {
+    visibility: hidden;
+}
+
+h1 {
+    color: black;
+}

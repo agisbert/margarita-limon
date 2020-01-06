@@ -1,0 +1,49 @@
+baseurl = "https://www.margaritalimon.es"
+title = "Margarita Limón"
+theme = "pulp"
+canonifyurls = true
+hasCJKLanguage = true
+# pygmentsCodefences = true
+# pygmentsUseClasses = true
+googleAnalytics = "UA-155272176-1"
+
+[taxonomies]
+  series = "series"
+
+[params]
+    author = "Margarita Limón"
+    avatar = "MargaritaTransparent.png"
+    favicon = "MargaritaTransparent.ico"
+    description = """
+        Margarita Limón y Lily Arándano se conocen desde pequeñitas. 
+        Juntas viven un montón de aventuras!
+    """
+    publicationYear = "2019"
+    # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
+    # singlePageDateFormat = "January 2, 2006"
+    custom_css = ["/css/custom.css"]
+    # custom_js = ["/js/custom.js"]
+
+[outputs]
+    section = ["JSON", "HTML"]
+
+[[menu.main]]
+    identifier = "twitter"
+    # name = "Twitter"
+    pre = "<i class='fab fa-twitter fa-lg'></i>"
+    url = "https://twitter.com/margarita-limon"
+    weight = 20
+
+[[menu.main]]
+    identifier = "instagram"
+    # name = "Instagram"
+    pre = "<i class='fab fa-instagram fa-lg'></i>"
+    url = "https://instagram.com/margarita-limon"
+    weight = 20
+
+[[menu.main]]
+    identifier = "email"
+    # name = "Email"
+    pre = "<i class='fa fa-envelope fa-lg'></i>"
+    url = "mailto:info@margaritalimon.es"
+    weight = 40
